@@ -3,7 +3,7 @@ import { Reveal } from "@/components/utils/Reveal";
 import styles from "./contact.module.scss";
 import { AiFillMail } from "react-icons/ai";
 import Link from "next/link";
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com'; // Updated import name
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { OutlineButton } from "@/components/buttons/OutlineButton";
@@ -71,7 +71,7 @@ export const Contact = () => {
               <Link href="https://www.twitter.com/sh17va" target="_blank" rel="nofollow">
                 Twitter
               </Link>{" "}
-              if that&apos;s more your speed.
+              if that&rsquo;s more your speed.
             </p>
           </Reveal>
           <Reveal width="100%">
@@ -83,7 +83,7 @@ export const Contact = () => {
             </Link>
           </Reveal>
           <Reveal width="100%">
-            <form autoComplete="false" className={styles.contantForm} ref={form} onSubmit={sendEmail}>
+            <form autoComplete="false" className={styles.contactForm} ref={form} onSubmit={sendEmail}>
               <div className={styles.inputBox}>
                 <input type="text" placeholder="Full Name" autoComplete="false" name="to_name" required />
                 <input type="email" placeholder="Email Address" autoComplete="false" name="from_name" required />
@@ -99,7 +99,6 @@ export const Contact = () => {
                 Send Message
               </OutlineButton>
             </form>
-
           </Reveal>
         </div>
       </section>
