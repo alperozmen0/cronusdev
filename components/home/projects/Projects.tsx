@@ -20,6 +20,7 @@ const projects = [
   {
     title: "Ihtiras",
     imgSrc: "/project-imgs/animetrix-website.png",
+    code: "https://github.com/ShivaBhattacharjee/AnimeTrix-next",
     projectLink: "https://discord.gg/1ht1ras/",
     tech: ["Discord"],
     description:
@@ -33,13 +34,13 @@ const projects = [
           Sunucu ilk olarak "DjCheck" ismiyle kuruldu, ardından l0nd0n, oslo, dj5 isimlerini aldı.
         </p>
         <p>
-          Sunucu prime döneminde 8k'dan fazla üyeye sahipti.
+          Sunucu prime döneminde 8k&apos;dan fazla üyeye sahipti.
         </p>
         <p>
-          Şuan 1k'ya yakın üye sayısı ile devam etmektedir.
+          Şuan 1k&apos;ya yakın üye sayısı ile devam etmektedir.
         </p>
         <p>
-          Şuan amacı panelimizin duyuruları ve sohbet v.b'dir
+          Şuan amacı panelimizin duyuruları ve sohbet v.b&apos;dir
         </p>
       </>
     ),
