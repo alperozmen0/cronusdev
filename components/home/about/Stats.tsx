@@ -10,7 +10,7 @@ export const Stats = () => {
         <div className={styles.statColumn}>
           <h4>
             <AiFillCode size="2.4rem" color="var(--brand)" />
-            <span>My Arsenal </span>
+            <span>Usta Olduğum Diller </span>
           </h4>
           <div className={styles.statGrid}>
       <span className="chip">Brainfuck</span>
