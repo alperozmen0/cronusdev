@@ -5,7 +5,7 @@ import styles from "./projects.module.scss";
 export const Projects = () => {
   return (
     <section className="section-wrapper" id="projects">
-      <SectionHeader title="Projects" dir="r" />
+      <SectionHeader title="Projelerim" dir="r" />
 
       <div className={styles.projects}>
         {projects.map((project) => {
@@ -18,29 +18,28 @@ export const Projects = () => {
 
 const projects = [
   {
-    title: "AnimeTrix",
+    title: "Ihtiras",
     imgSrc: "/project-imgs/animetrix-website.png",
-    code: "https://github.com/ShivaBhattacharjee/AnimeTrix-next",
-    projectLink: "https://animetrix.xyz/",
-    tech: ["Typescript", "NextJs", "TailwindCss", "MongoDb"],
+    projectLink: "https://discord.gg/1ht1ras/",
+    tech: ["Discord"],
     description:
-      "Animetrix is a project that utilizes the Anilist platform to obtain information on various anime titles, and it combines this data with the Gogoanime API to provide ad-free streaming of anime content.",
+      "Ihtiras prime döneminde 8k üyeye ulaşmış discord sunucusudur.",
     modalContent: (
       <>
         <p>
-          Anime Trix is an anime streaming / downloading site that offers a vast collection of anime shows for streaming and downloading.
+        Ihtiras 2022'nin sonlarına doğru Cronus tarafından kurulmuştur
         </p>
         <p>
-          With a user-friendly interface, you can easily find your favorite anime shows and watch them in high-definition quality.
+          Sunucu ilk olarak "DjCheck" ismiyle kuruldu, ardından l0nd0n, oslo, dj5 isimlerini aldı.
         </p>
         <p>
-          Our platform is updated regularly with the latest anime episodes, so you can stay up-to-date with your favorite shows.
+          Sunucu prime döneminde 8k'dan fazla üyeye sahipti.
         </p>
         <p>
-          Anime Trix is the go-to destination for anime lovers who want to watch their favorite shows anytime, anywhere.
+          Şuan 1k'ya yakın üye sayısı ile devam etmektedir.
         </p>
         <p>
-          AnimTrix is hosted in vercel
+          Şuan amacı panelimizin duyuruları ve sohbet v.b'dir
         </p>
       </>
     ),
