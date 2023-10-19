@@ -59,19 +59,19 @@ export const Contact = () => {
           </Reveal>
           <Reveal width="100%">
             <p className={styles.contactCopy}>
-              İletişim için email yollayabilirsin veya {" "}
+              Shoot me an email if you want to connect! You can also find me on{" "}
               <Link
-                href="https://www.instagram.com/crons1337/"
+                href="https://www.instagram.com/immashiva_/"
                 target="_blank"
                 rel="nofollow"
               >
                 Instagram
               </Link>{" "}
-              veya{" "}
+              or{" "}
               <Link href="https://www.twitter.com/sh17va" target="_blank" rel="nofollow">
                 Twitter
               </Link>{" "}
-              üzerinden de iletişime geçebilirsin.
+              if that&apos;s more your speed.
             </p>
           </Reveal>
           <Reveal width="100%">
@@ -85,10 +85,10 @@ export const Contact = () => {
           <Reveal width="100%">
             <form autoComplete="false" className={styles.contantForm} ref={form} onSubmit={sendEmail}>
               <div className={styles.inputBox}>
-                <input type="text" placeholder="İsmin" autoComplete="false" name="to_name" required />
-                <input type="email" placeholder="Email Adresin" autoComplete="false" name="from_name" required />
+                <input type="text" placeholder="Full Name" autoComplete="false" name="to_name" required />
+                <input type="email" placeholder="Email Address" autoComplete="false" name="from_name" required />
               </div>
-              <textarea placeholder="Mesajın"
+              <textarea placeholder="Your Message"
                 autoComplete="false"
                 required
                 name="message"
