@@ -59,36 +59,36 @@ export const Contact = () => {
           </Reveal>
           <Reveal width="100%">
             <p className={styles.contactCopy}>
-              Shoot me an email if you want to connect! You can also find me on{" "}
+              İletişim için email yollayabilirsin veya {" "}
               <Link
-                href="https://www.instagram.com/immashiva_/"
+                href="https://www.instagram.com/crons1337/"
                 target="_blank"
                 rel="nofollow"
               >
                 Instagram
               </Link>{" "}
-              or{" "}
+              veya{" "}
               <Link href="https://www.twitter.com/sh17va" target="_blank" rel="nofollow">
                 Twitter
               </Link>{" "}
-              if that&apos;s more your speed.
+              üzerinden'de iletişime geçebilirsin.
             </p>
           </Reveal>
           <Reveal width="100%">
-            <Link href="mailto:heyitsshiva@protonmain.me">
+            <Link href="mailto:iletisim@cronusdev.com">
               <div className={styles.contactEmail}>
                 <AiFillMail size="2.4rem" />
-                <span>heyitsshiva@protonmail.me</span>
+                <span>iletisim@cronusdev.com</span>
               </div>
             </Link>
           </Reveal>
           <Reveal width="100%">
             <form autoComplete="false" className={styles.contantForm} ref={form} onSubmit={sendEmail}>
               <div className={styles.inputBox}>
-                <input type="text" placeholder="Full Name" autoComplete="false" name="to_name" required />
-                <input type="email" placeholder="Email Address" autoComplete="false" name="from_name" required />
+                <input type="text" placeholder="İsmin" autoComplete="false" name="to_name" required />
+                <input type="email" placeholder="Email Adresin" autoComplete="false" name="from_name" required />
               </div>
-              <textarea placeholder="Your Message"
+              <textarea placeholder="Mesajın"
                 autoComplete="false"
                 required
                 name="message"
@@ -96,7 +96,7 @@ export const Contact = () => {
                 onChange={handleMessageChange}></textarea>
                 <br /><br />
               <OutlineButton>
-                Send Message
+                Yolla
               </OutlineButton>
             </form>
 
