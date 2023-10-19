@@ -25,7 +25,7 @@ export const Hero = () => {
         </Reveal>
         <Reveal>
           <p className={styles.aboutCopy}>
-            Crafting meaningful websites that tell your story🎨
+            31 cekmeyi severim
             <br />
             Let&apos;s connect!
           </p>
