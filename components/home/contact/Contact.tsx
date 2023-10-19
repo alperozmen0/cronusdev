@@ -71,7 +71,7 @@ export const Contact = () => {
               <Link href="https://www.twitter.com/sh17va" target="_blank" rel="nofollow">
                 Twitter
               </Link>{" "}
-              üzerinden'de iletişime geçebilirsin.
+              üzerinden de iletişime geçebilirsin.
             </p>
           </Reveal>
           <Reveal width="100%">
