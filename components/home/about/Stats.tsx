@@ -47,7 +47,7 @@ export const Stats = () => {
           <div className={styles.statGrid}>
 <div>
   <span className="chip">Incredible!</span>
-  <span className="chip">However,</span>
+  <span className="chip">However</span>
   <span className="chip">if</span>
   <span className="chip">your</span>
   <span className="chip">energy</span>
@@ -57,8 +57,8 @@ export const Stats = () => {
   <span className="chip">is</span>
   <span className="chip">not</span>
   <span className="chip">conducive</span>
-  <span className="chip">or,</span>
-  <span className="chip">yeah,</span>
+  <span className="chip">or</span>
+  <span className="chip">yeah</span>
   <span className="chip">I</span>
   <span className="chip">like</span>
   <span className="chip">the</span>
@@ -66,14 +66,14 @@ export const Stats = () => {
   <span className="chip">conducive</span>
   <span className="chip">to</span>
   <span className="chip">what</span>
-  <span className="chip">I'm</span>
+  <span className="chip">Im</span>
   <span className="chip">saying</span>
   <span className="chip">or</span>
   <span className="chip">what</span>
-  <span className="chip">I'm</span>
-  <span className="chip">feeling,</span>
+  <span className="chip">Im</span>
+  <span className="chip">feeling</span>
   <span className="chip">then</span>
-  <span className="chip">there's</span>
+  <span className="chip">theres</span>
   <span className="chip">incompatibility.</span>
   <span className="chip">So</span>
   <span className="chip">how</span>
@@ -86,7 +86,7 @@ export const Stats = () => {
   <span className="chip">you</span>
   <span className="chip">fix</span>
   <span className="chip">that?</span>
-  <span className="chip">Well,</span>
+  <span className="chip">Well</span>
   <span className="chip">first</span>
   <span className="chip">you</span>
   <span className="chip">have</span>
@@ -117,8 +117,8 @@ export const Stats = () => {
   <span className="chip">set</span>
   <span className="chip">my</span>
   <span className="chip">atmosphere?</span>
-  <span className="chip">Woooooah,</span>
-  <span className="chip">That's</span>
+  <span className="chip">Woooooah</span>
+  <span className="chip">Thats</span>
   <span className="chip">good.</span>
   <span className="chip">What</span>
   <span className="chip">kind</span>
