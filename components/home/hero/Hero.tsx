@@ -9,13 +9,13 @@ export const Hero = () => {
       <div className={styles.copyWrapper}>
         <Reveal>
           <h1 className={styles.title}>
-            Hey, I&apos;m Shiva<span>.</span>
+            Selam, Ben Cronus<span>.</span>
           </h1>
         </Reveal>
         <Reveal>
           <h2 className={styles.subTitle}>
             I&apos;m a <span><ReactTypingEffect
-              text={["Full Stack Developer.", "Freelancer.", "DevOps enthusiast."]}
+              text={["Racist.", "9/11 Pilot.", "Pro Youtuber."]}
               speed={40}
               eraseSpeed={40}
               eraseDelay={900}
