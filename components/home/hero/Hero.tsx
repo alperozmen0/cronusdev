@@ -27,7 +27,6 @@ export const Hero = () => {
           <p className={styles.aboutCopy}>
             31 cekmeyi severim
             <br />
-            Let&apos;s connect!
           </p>
         </Reveal>
         <Reveal>
