@@ -75,10 +75,10 @@ export const Contact = () => {
             </p>
           </Reveal>
           <Reveal width="100%">
-            <Link href="mailto:iletisim@cronusdev.com">
+            <Link href="mailto:heyitsshiva@protonmain.me">
               <div className={styles.contactEmail}>
                 <AiFillMail size="2.4rem" />
-                <span>iletisim@cronusdev.com</span>
+                <span>heyitsshiva@protonmail.me</span>
               </div>
             </Link>
           </Reveal>
@@ -96,7 +96,7 @@ export const Contact = () => {
                 onChange={handleMessageChange}></textarea>
                 <br /><br />
               <OutlineButton>
-                Yolla
+                Send Message
               </OutlineButton>
             </form>
 
