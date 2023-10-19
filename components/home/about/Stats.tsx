@@ -18,7 +18,7 @@ export const Stats = () => {
       <span className="chip">Whitespace</span>
       <span className="chip">INTERCAL</span>
       <span className="chip">Ook!</span>
-      <span className="chip">Shakespeare Programming Language</span>
+      <span className="chip">Shakespeare</span>
       <span className="chip">ArnoldC</span>
       <span className="chip">HQ9+</span>
       <span className="chip">Chef</span>
@@ -28,6 +28,7 @@ export const Stats = () => {
 <span className="chip">Unlambda</span>
 <span className="chip">Piet</span>
 <span className="chip">Whitespace</span>
+<span className="chip">LorcaCode</span>
 <span className="chip">Cow</span>
 <span className="chip">TrumpScript</span>
 <span className="chip">HQ9++</span>
