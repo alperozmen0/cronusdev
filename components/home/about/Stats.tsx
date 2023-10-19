@@ -13,26 +13,27 @@ export const Stats = () => {
             <span>My Arsenal </span>
           </h4>
           <div className={styles.statGrid}>
-            <span className="chip">JavaScript</span>
-            <span className="chip">TypeScript</span>
-            <span className="chip">Python</span>
-            <span className="chip">C++</span>
-            <span className="chip">Rust</span>
-            <span className="chip">HTML</span>
-            <span className="chip">CSS</span>
-            <span className="chip">SCSS</span>
-            <span className="chip">Tailwind</span>
-            <span className="chip">React</span>
-            <span className="chip">NextJs</span>
-            <span className="chip">Redux</span>
-            <span className="chip">Redis</span>
-            <span className="chip">NodeJS</span>
-            <span className="chip">Express</span>
-            <span className="chip">MongoDB</span>
-            <span className="chip">MySql</span>
-            <span className="chip">Docker</span>
-            <span className="chip">Prisma</span>
-            <span className="chip">kubernetes</span>
+      <span className="chip">Brainfuck</span>
+      <span className="chip">Malbolge</span>
+      <span className="chip">Whitespace</span>
+      <span className="chip">INTERCAL</span>
+      <span className="chip">Ook!</span>
+      <span className="chip">Shakespeare Programming Language</span>
+      <span className="chip">ArnoldC</span>
+      <span className="chip">HQ9+</span>
+      <span className="chip">Chef</span>
+      <span className="chip">LOLCODE</span>
+      <span className="chip">Brain-Flak</span>
+<span className="chip">Befunge</span>
+<span className="chip">Unlambda</span>
+<span className="chip">Piet</span>
+<span className="chip">Whitespace</span>
+<span className="chip">Cow</span>
+<span className="chip">TrumpScript</span>
+<span className="chip">HQ9++</span>
+<span className="chip">Plankalkül</span>
+<span className="chip">Flobot</span>
+
           </div>
         </div>
       </Reveal>
